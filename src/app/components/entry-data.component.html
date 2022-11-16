@@ -1,0 +1,18 @@
+
+<input type="text"
+[placeholder]="placeholder"
+[value]="value"
+(input)="value = $any($event.target).value"
+>
+
+<p>
+{{value}}
+</p>
+
+<input type="text"
+
+[(ngModel)] ="placepass"
+>
+<p>
+{{placepass}}
+</p>
